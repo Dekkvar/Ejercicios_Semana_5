@@ -7,7 +7,7 @@ public class Ejercicio2 {
         System.out.println("Vamos a comprobar si un número menor que 100 es primo.");
         Scanner input = new Scanner(System.in);
         System.out.println("Introduce un número:");
-        int num = Integer.parseInt(input.nextLine());
+        int num = input.nextInt();
         int count = 0;
 
         if (num > 100) {
