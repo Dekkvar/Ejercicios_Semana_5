@@ -12,7 +12,7 @@ Crea un programa que reciba por parámetro un número introducido por el usuario
 Crea un programa que reciba por parámetro una cadena de caracteres introducida por el usuario y que muestre por pantalla cada caracter de forma individual.
 Ejemplo:
 ```
-\>Hola
+>Hola
 H
 o
 l
