@@ -21,13 +21,10 @@ a
 > **Pista**: Todas las cadenas de caracteres tienen una función conocida como _charAt(índice)_.
 
 ## [Ejercicio 4](src/com/ejercicios/Ejercicio4.java)
-Crea un programa que reciba por parámetro lado y altura y cree un objeto Cuadrilátero con estas propiedades. Haz que tenga una función llamada _calculoArea()_ que muestre por pantalla el resultado.
-
-## [Ejercicio 5](src/com/ejercicios/Ejercicio5.java)
 Crea un programa que calcule la media acumulada de 10 números que introduzca el usuario y muestre por pantalla cual es la media en cada momento.
 > **Pista**: La media aritmética es igual a **(N1+...+Nm) / m** , es decir, la suma de todos los factores dividido por la cantidad total de factores.
 
-## [Ejercicio 6](src/com/ejercicios/Ejercicio6.java)
+## [Ejercicio 5](src/com/ejercicios/Ejercicio5.java)
 Crea un programa que permita usar una calculadora simple. Debe ofrecer al usuario la posibilidad de hacer:
 - [x] sumas :heavy_plus_sign:	
 - [x] restas :heavy_minus_sign:	
