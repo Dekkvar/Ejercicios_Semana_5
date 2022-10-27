@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a5561f3-9b47-4397-a4e1-2db9d03896f4" name="Changes" comment="" />
+    <list default="true" id="6a5561f3-9b47-4397-a4e1-2db9d03896f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +41,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Ejercicio5">
     <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ejercicios.Ejercicio1" />
       <module name="Ejercicios_Semana_5" />
@@ -53,8 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ejercicios.Ejercicio5" />
+      <module name="Ejercicios_Semana_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejercicios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio5" />
         <item itemvalue="Application.Ejercicio1" />
       </list>
     </recent_temporary>
@@ -68,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666858559399</updated>
       <workItem from="1666858560632" duration="902000" />
-      <workItem from="1666859523890" duration="2295000" />
+      <workItem from="1666859523890" duration="4641000" />
     </task>
     <servers />
   </component>
@@ -85,16 +101,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/ejercicios/Ejercicio3.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
