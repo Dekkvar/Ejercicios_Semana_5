@@ -30,3 +30,24 @@ Crea un programa que permita usar una calculadora simple. Debe ofrecer al usuari
 - [x] restas :heavy_minus_sign:	
 - [x] multiplicaciones :heavy_multiplication_x:	
 - [x] divisiones :heavy_division_sign:	
+
+```mermaid
+graph TD
+    A([Inicio del programa]) --> B(Introducir un valor);
+    B --> C(Seleccionar símbolo);
+    C --> D{Símbolo es válido};
+    D --> |No| C;
+    D --> |Sí| E(Introducir segundo valor);
+    E --> G{Suma};
+    G --> |Sí| H[Suma los valores];
+    G --> |No| I{Resta};
+    I --> |Sí| J[Resta los valores];
+    I --> |No| K{Multiplicación};
+    K --> |Sí| L[Multiplica los valores];
+    K --> |No| M[Divide los valores];
+    H --> F[Mostrar el resultado];
+    J --> F;
+    L --> F;
+    M --> F;
+    F --> N([Fin del programa]);
+```
