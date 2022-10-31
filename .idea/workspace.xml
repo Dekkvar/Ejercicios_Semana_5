@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a5561f3-9b47-4397-a4e1-2db9d03896f4" name="Changes" comment="" />
+    <list default="true" id="6a5561f3-9b47-4397-a4e1-2db9d03896f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ejercicios/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ejercicios/Ejercicio5.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ejercicio6">
+  <component name="RunManager" selected="Application.Ejercicio5">
     <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ejercicios.Ejercicio1" />
       <module name="Ejercicios_Semana_5" />
@@ -81,8 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ejercicio6" />
         <item itemvalue="Application.Ejercicio5" />
+        <item itemvalue="Application.Ejercicio6" />
         <item itemvalue="Application.Ejercicio1" />
       </list>
     </recent_temporary>
@@ -97,7 +100,11 @@
       <updated>1666858559399</updated>
       <workItem from="1666858560632" duration="902000" />
       <workItem from="1666859523890" duration="7862000" />
-      <workItem from="1666904865612" duration="652000" />
+      <workItem from="1666904865612" duration="966000" />
+      <workItem from="1666942188075" duration="19000" />
+      <workItem from="1667126389301" duration="4677000" />
+      <workItem from="1667207662468" duration="208000" />
+      <workItem from="1667208500204" duration="2158000" />
     </task>
     <servers />
   </component>

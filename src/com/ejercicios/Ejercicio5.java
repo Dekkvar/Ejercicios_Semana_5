@@ -3,14 +3,8 @@ package com.ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio5 {
-    public static void main(String[] args) {
-        int num1, num2;
+    public static String operation(Scanner input) {
         String ope = "";
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Introduce el primer número:");
-        num1 = input.nextInt();
-
         while (ope.equals("")) {
             ope = input.nextLine();
             if (!ope.equals("+") && !ope.equals("-") && !ope.equals("*") && !ope.equals("/")) {
@@ -21,11 +15,25 @@ public class Ejercicio5 {
                 ope = "";
             }
         }
+        return ope;
+    }
 
-        System.out.println("Introduce el segundo número:");
-        num2 = input.nextInt();
+    public static double numero(String msg, Scanner input) {
+        System.out.println(msg);
+        double num = input.nextDouble();
+        return num;
+    }
 
-        int resultado = 0;
+    public static void main(String[] args) {
+        double num1, num2, resultado = 0;
+        String ope = "";
+        Scanner input = new Scanner(System.in);
+
+        num1 = numero("Introduce el primer número:", input);
+
+        ope = operation(input);
+
+        num2 = numero("Introduce el segundo número:", input);
 
         switch (ope) {
             case "+":
@@ -39,6 +47,9 @@ public class Ejercicio5 {
                 break;
             case "/":
                 resultado = num1 / num2;
+                break;
+            default:
+                System.out.println("Hasta luego.");
                 break;
         }
 
